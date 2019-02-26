@@ -1,0 +1,76 @@
+body{
+    background-image: url("../pictures/sushi2.jpeg");
+    background-position:  0% 95%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+.jumbotron{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    padding: 0.5rem;
+}
+
+#logo {
+    height: 15vh;
+    margin-top: 1vh;        
+}
+
+#logo:hover{
+    
+}
+
+#nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2vh;
+    
+}
+
+@media (min-width: 576px) {
+    .jumbotron {
+        padding: 1rem;
+    }
+}
+
+#aboutUs{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-size: 22px;
+    padding: 0.5rem;
+    /* font-family: 'Molle', cursive; */
+    /* font-family: 'Nothing You Could Do', cursive; */
+    text-align: justify;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: 'Montserrat', sans-serif;
+
+    
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 2%; 
+}
+
+.carousel-inner img {
+margin: auto;
+/* border-radius: 10% */
+}
+
+h1{
+    /* font-family: 'Molle', cursive; */
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+h2{
+    /* font-family: 'Molle', cursive; */
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 60px;
+    text-align: center;
+}
