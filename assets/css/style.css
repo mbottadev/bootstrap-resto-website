@@ -22,6 +22,8 @@ body{
 }
 
 #nav {
+    padding-left: 7%;
+    padding-right: 7%;
     display: flex;
     justify-content: space-around;
     margin-top: 2vh;
@@ -35,15 +37,15 @@ body{
 }
 
 #aboutUs{
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
     color: white;
     font-size: 22px;
     padding: 0.5rem;
     /* font-family: 'Molle', cursive; */
     /* font-family: 'Nothing You Could Do', cursive; */
     text-align: justify;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 13%;
+    padding-right: 13%;
     font-family: 'Montserrat', sans-serif;
 
     
@@ -73,4 +75,22 @@ h2{
     font-family: 'Nothing You Could Do', cursive;
     font-size: 60px;
     text-align: center;
+}
+
+h4{
+    /* font-family: 'Molle', cursive; */
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 60px;
+    padding: 60px;
+}
+
+.scrollspy-example {
+    padding-bottom: 600px;
+}
+
+.menuPrice {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
 }
