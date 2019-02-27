@@ -28,8 +28,49 @@
         </div>
         
     </div>
-    <div id="aboutUs"> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum beatae assumenda, eum tempora laudantium rerum aliquam adipisci qui dolorum. Ipsam asperiores dolore dignissimos minus, repellat reprehenderit necessitatibus sequi quis unde.</p> </div>
     
+    <form>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputEmail4">First name</label>
+                <input type="text" class="form-control" placeholder="First name">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputPassword4">Last name</label>
+                <input type="text" class="form-control" placeholder="Last name">
+            </div>
+        </div>
+        <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputState">Message option</label>
+                    <select id="inputState" class="form-control">
+                        <option selected>...</option>
+                        <option>Complaint</option>
+                        <option>I want to book a table</option>
+                        <option>Questions about allergies</option>
+                        <option>Questions about opening time</option>
+                        <option>I would like to apply</option>
+                    </select>
+                </div>
+        </div>
+        <div class="form-group">
+                <label for="exampleFormControlTextarea1">My message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                        All my informations are correct
+                </label>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Send</button>
+        </form>
     
 </body>
 </html>
