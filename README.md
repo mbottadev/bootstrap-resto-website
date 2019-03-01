@@ -12,6 +12,7 @@ Visual Studio Code
 - HTML
 - CSS 
 - Java-script
+-Bootstrap
 
 ## Responsive? 
 Bien évidemment!
