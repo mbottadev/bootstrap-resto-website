@@ -62,16 +62,15 @@ body{
 
 .carousel-inner img {
 margin: auto;
-/* border-radius: 10% */
 }
 
 h1{
-    /* font-family: 'Molle', cursive; */
+    
     font-family: 'Nothing You Could Do', cursive;
 }
 
 h2{
-    /* font-family: 'Molle', cursive; */
+    
     font-family: 'Nothing You Could Do', cursive;
     font-size: 60px;
     text-align: center;
@@ -79,7 +78,7 @@ h2{
 
 
 h4{
-    /* font-family: 'Molle', cursive; */
+    
     font-family: 'Nothing You Could Do', cursive;
     font-size: 60px;
     padding: 60px;
