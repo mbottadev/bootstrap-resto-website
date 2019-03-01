@@ -1,6 +1,4 @@
 # bootstrap-resto-website
-<img src="consignes.png" alt="photo"/>
-
 
 ## Consignes:
 Nous avions quatre jours pour créer un site web pour un restaurant que l'on inventait, ce site web comprend au minimum 5 pages (acceuil, restaurants, menu, photos et une de contact) qui doivent chacune comprendre des éléments bien précis. Voici les consignes.
