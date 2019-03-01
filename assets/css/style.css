@@ -1,0 +1,189 @@
+body{
+    background-image: url("../pictures/sushi2.jpeg");
+    background-position:  0% 95%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    overflow-x: hidden;
+}
+.jumbotron{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    padding: 0.5rem;
+}
+
+#logo {
+    height: 15vh;
+    margin-top: 1vh;        
+}
+
+#logo:hover{
+    
+}
+
+#nav {
+    padding-left: 7%;
+    padding-right: 7%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2vh;
+    
+}
+
+@media (min-width: 576px) {
+    .jumbotron {
+        padding: 1rem;
+    }
+}
+
+#aboutUs{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 0.5rem;
+    /* font-family: 'Molle', cursive; */
+    /* font-family: 'Nothing You Could Do', cursive; */
+    text-align: justify;
+    padding-left: 13%;
+    padding-right: 13%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 2%; 
+}
+
+.carousel-inner img {
+margin: auto;
+}
+
+h1{
+    
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+h2{
+    
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+
+
+h4{
+    
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 60px;
+    padding: 60px;
+}
+
+.scrollspy-example {
+    padding-bottom: 600px;
+}
+
+.menuPrice {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+.jumpDiv {
+    margin-right: 30%;
+    margin-left: 30%;
+    background-color: rgba(0, 0, 0, 0.7); 
+}
+
+.list-group-item {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+}
+.list-group-item.active {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    border-color: rgba(0, 0, 0, 0.3);
+}
+.jumpBtn:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    border-color: rgba(0, 0, 0, 0.3);
+}
+.badge-primary{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+form {
+    padding-right: 30%;
+    padding-left: 30%;
+    background-color: rgba(0, 0, 0, 0.3); 
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.allPhotos {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 3%;
+}
+
+.photosPagePhotos{
+    width: 100%;
+    padding-bottom: 8%;  
+}
+
+.divResto{
+    width: 100vw;
+    height: auto;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 4%;
+    margin-bottom: 1%;
+}
+
+.allResto{
+    
+}
+
+#map{
+    height: 500px;
+    width: 70%;
+    margin: auto;
+}
+
+h3 {
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 50px;
+}
+
+#adresse {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+#date{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+#name {
+    position: absolute;
+    background-color: pink;
+    color: white;
+}
+
+#popUp {
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 30px;
+    color: white;
+}

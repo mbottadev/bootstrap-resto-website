@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Nothing+You+Could+Do" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="pictures/sumo.png"/>
+    <script src="js/menu.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>SUSHITAKE</title>
+</head>
+<body>
+    <div class="jumbotron">
+        <h1 class="display-4">SUSHITAKE</h1>
+        <img src="pictures/sumo.png" id="logo" class="box animated infinite rotateInDownLeft slower">
+        <div id="nav">
+            <a class="btn btn-outline-light" href="#" role="button" onclick="location.href='index.html'">HOME</a>
+            <a class="btn btn-outline-light" href="#" role="button" onclick="location.href='map.html'">RESTAURANTS</a>
+            <a class="btn btn-outline-light" href="#" role="button" onclick="location.href='menu.html'">MENU</a>
+            <a class="btn btn-outline-light" href="#" role="button" onclick="location.href='photos.html'">PHOTOS</a>
+            <a class="btn btn-outline-light" href="#" role="button" onclick="location.href='contact.html'">CONTACT US</a>        
+        </div>
+        
+    </div>
+    <div id="list-example" class="list-group jumpDiv">
+        <a class="list-group-item list-group-item-action jumpBtn " href="#SUSHI">SUSHI
+            <span class="badge badge-primary badge-pill">12</span></a>
+        <a class="list-group-item list-group-item-action jumpBtn" href="#SASHIMIS">SASHIMIS
+            <span class="badge badge-primary badge-pill">4</span></a>
+        <a class="list-group-item list-group-item-action jumpBtn" href="#CALIFORNIA ROLLS">CALIFORNIA ROLLS
+            <span class="badge badge-primary badge-pill">18</span></a>
+        <a class="list-group-item list-group-item-action jumpBtn" href="#DRINKS">DRINKS
+            <span class="badge badge-primary badge-pill">14</span></a>
+    </div>
+    <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example menuPrice">
+        <h4 id="SUSHI">SUSHI</h4><p>(1 piece)</p>
+        <div>
+            <div class="food"> Saumon € 1,50</div>
+            <div class="food"> Saumon Fromage € 1,60</div>
+            <div class="food"> Thon € 1,80</div>
+            <div class="food"> Thon Cuit € 2,00</div>
+            <div class="food"> Crevette € 1,60</div>
+            <div class="food"> Beurre € 1,80</div>
+            <div class="food"> Anguille € 2,20</div>
+            <div class="food"> Saumon Avocat € 1,80</div>
+            <div class="food"> Avocat € 1,50</div>
+            <div class="food"> Tamago € 1,50</div>
+            <div class="food"> Ika € 2,00</div>
+            <div class="food"> Tako € 2,00</div>
+        </div> 
+        </p>
+        <h4 id="SASHIMIS">SASHIMIS</h4><p>(12 pieces)</p>
+        <div> 
+            <div class="food"> Saumon  € 14,50 </div>
+            <div class="food"> Thon  € 17,50 </div>
+            <div class="food"> Saumon Thon  € 16,50 </div>
+            <div class="food"> Saumon Thon Ebi Poisson Beurre  € 17,00 </div>
+        </div>
+        
+        <h4 id="CALIFORNIA ROLLS">CALIFORNIA ROLLS</h4><p>(8 pieces)</p>
+            <div>
+                <div class="food"> Saumon Avocat  € 5,00</div>
+                <div class="food"> Thon Avocat  € 5,50</div>
+                <div class="food"> Saumon Fromage  € 5,50</div>
+                <div class="food"> Surimi Avocat  € 5,50</div>
+                <div class="food"> Thon Cuit  € 5,50</div>
+                <div class="food"> Poulet Oignon  € 6,00</div>
+                <div class="food"> Ebi King  € 6,00</div>
+                <div class="food"> Fromage Radis  € 4,00</div>
+                <div class="food"> Radi Fromage Avocat  € 4,00</div>
+                <div class="food"> Rainbow Saumon  € 6,50</div>
+                <div class="food"> Rainbow Thon  € 7,00</div>
+                <div class="food"> Rainbow King  € 7,50</div>
+                <div class="food"> Malibu (saumon Fromage)  € 5,50</div>
+                <div class="food"> Mango Avocat Fromage  € 5,50</div>
+                <div class="food"> Saumon Piquant (avocat Concombre)  € 6,00</div>
+                <div class="food"> Spéciale Oignon Saumon Concombre  € 6,60</div>
+                <div class="food"> Saumon Fromage Roll  € 6,00</div>
+                <div class="food"> Poisson Beurre Avocat € 6,00</div>
+            </div>
+        <h4 id="DRINKS">DRINKS</h4>
+            <div>
+                <div class="food"> Coca Cola  € 1,80 </div>
+                <div class="food"> Coca Cola Light  € 1,80 </div>
+                <div class="food"> Coca Cola Zero  € 1,80 </div>
+                <div class="food"> Fanta  € 1,80 </div>
+                <div class="food"> Ice Tea € 1,80 </div>
+                <div class="food"> Pepsi  € 1,80 </div>
+                <div class="food"> L'eau  € 2,80 </div>
+                <div class="food"> Japanese Limonade  € 2,80 </div>
+                <div class="food"> Pokka Peach  € 2,80 </div>
+                <div class="food"> Pokka Lychee  € 2,80 </div>
+                <div class="food"> Pokka Melon  € 2,80 </div>
+                <div class="food"> Mangojo Grenade  € 2,80 </div>
+                <div class="food"> Mangojo Citron  € 2,80 </div>
+                <div class="food"> Mangojo Bair Goji  € 2,00 </div>
+            </div>  
+    </div>
+    
+</body>
+</html>
