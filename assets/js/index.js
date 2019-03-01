@@ -1,8 +1,12 @@
 window.onload = () => {
 
-    let logo = document.getElementById("logo")
+    // var rep = prompt ('What is your name?')
 
-    
+    // name = document.createElement('div');
+    // name.id = "namePrompt"
+    // document.getElementById('popUp').innerText = "Hello " + rep + " welcome to"
+    // document.getElementsByTagName('body')[0].appendChild(name);
+
     // logo.addEventListener("mouseenter", function(e){
     //     e.target.classList.add = "animated";
     //     e.target.style.opacity = 0.4;

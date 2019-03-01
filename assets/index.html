@@ -11,12 +11,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Nothing+You+Could+Do" rel="stylesheet">
     <!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
+    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="pictures/sumo.png"/>
     <script src="js/index.js"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <title>SUSHITAKE</title>
 </head>
 <body>
     <div class="jumbotron">
+        <div id="popUp"></div>
         <h1 class="display-4">SUSHITAKE</h1>
         <img src="pictures/sumo.png" id="logo" class="box animated infinite rotateInDownLeft slower">
         <div id="nav">
@@ -74,6 +77,18 @@
             
             <p>Since we believe your wallet shouldn’t stop you from indulging in your sushi-cravings on a daily basis, we brought back Henry, our friendly, state-of-the-art maki-robot from our last trip to Tokyo (Come and meet him at your next visit).</p>
     </div>
-    
+    <script>
+        function popup() {
+        elem = document.getElementById("popUp");
+        let nom = "";
+        while (!nom) {
+        nom = prompt("What's your name?");
+        let txt = "Hello " + nom + " welcome to";
+        elem.innerText = txt;
+        }
+        }
+        
+        window.onload = popup
+    </script>
 </body>
 </html>

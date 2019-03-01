@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Nothing+You+Could+Do" rel="stylesheet">
     <!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
+    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="pictures/sumo.png"/>
     <script src="js/map.js"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <title>SUSHITAKE</title>
@@ -29,16 +31,41 @@
         
     </div>
     <div class="allResto">
+        <div class="divResto" id="date"></div>
         <div class="divResto" id="resto1">
-                <h3>SUSHITAKE STOCKEL</h3>
-                
+            <h3>SUSHITAKE STOCKEL</h3>
+            <p id="adresse">SUSHITAKE stockel sprl </br>                    
+                Place Dumon 12 | 1150 Woluwe-Saint-Pierre | Tva: BE0.887.766.096 </br>                    
+                stockel@sushitake.be
+            </p>
         </div>
         <div class="divResto" id="resto2">
             <h3>SUSHITAKE MERODE</h3>
+            <p id="adresse">SUSHITAKE Mérode sprl </br>                    
+                Avenue de Tervuren 342 | 1040 Etterbeek | Tva: BE0.877.766.096 </br>                    
+                merode@sushitake.be
+            </p>
         </div>
         <div class="divResto" id="resto3">
             <h3>SUSHITAKE BOURSE</h3>
+            <p id="adresse">SUSHITAKE BOURSE sprl </br>                    
+                Boulevard Anspach 412b | 1000 Bruxelles | Tva: BE0.867.766.096 </br>                    
+                bourse@sushitake.be
+            </p>
+        </div>
+        <div class="divResto">
+            <p id="adresse">
+                All our restaurants are opened Tuesday to Sunday from 11am to 11pm, </br>
+
+                our waiters will be pleased to welcome you.
+            </p>
+        </div>
+        <div class="divResto">
+            <div id="map"></div>
         </div>
     </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQDvS4k0JwzYO6anX6ckLtZutThxnpqBo&callback=initMap"
+    async defer></script>
+    
 </body>
 </html>
