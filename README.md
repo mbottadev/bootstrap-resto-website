@@ -1,21 +1,24 @@
 # bootstrap-resto-website
 
-## Consignes:
-Nous avions quatre jours pour créer un site web pour un restaurant que l'on inventait, ce site web comprend au minimum 5 pages (acceuil, restaurants, menu, photos et une de contact) qui doivent chacune comprendre des éléments bien précis. Voici les consignes.
+## Time-line
+Exercice realised after seven weeks of training.
+
+## Exercise Instructions:
+We had four days to create a restaurant's website, that website got 5 pages (home, restaurants, menu, photos and contact), each of these pages got specific instructions. Here they are.
 
 <img src="assets/pictures/consignes.png" alt="photo"/>
  
-## Logiciel utilisé pour coder:
+## Text Editor:
 Visual Studio Code
 
-## Langages utilisés:
+## Langages:
 - HTML
 - CSS 
 - Java-script
--Bootstrap
+- Bootstrap
 
 ## Responsive? 
-Bien évidemment!
+Of course!
 
-## Difficultés
-Le site n'est pas dans fini à mon goût, j'aimerais encore changer pas mal de détails mais c'était trop short niveau temps.
+## Issues
+Unfinished project, can still be upgrade.
