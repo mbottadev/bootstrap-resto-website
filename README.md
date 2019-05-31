@@ -1,6 +1,6 @@
 # bootstrap-resto-website
 
-## Time-line
+## Timeline
 Exercice realised after seven weeks of training.
 
 ## Exercise Instructions:
